@@ -2,7 +2,7 @@
 
 In an effort to generate new episodes of a favorite show of mine, I thought why not use machines and let them work for my entertainment.
 
-The data was scraped from ... and saved to a text file. 
+The data was scraped and saved to a text file, by the code found in "Gilmore_Girls_Scraping_Cleaning.py". 
 For a first approach I used a neural network of the long short-time memory (LSTM) type, due to their favourable characteristics for word processing and NLP. To fit the model found in "gg_generator_lstm.py", the time per epoch was about 2.5 hours. For a first approximation the epoch number was set to 4, reducing the loss to 1.91. After the fitting, the model printed some very underwhelming dialogue of:
 > "lorelai ok go sory lorelai ok go sory lorelai ok go sory lorelai ok go sory lorelai ok go sory lorelai ok go sory lorelai" 
 
